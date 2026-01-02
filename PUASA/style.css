@@ -1,0 +1,90 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f9f9;
+    margin: 0;
+    font-size: 22px; /* DIBESARKAN */
+}
+
+header {
+    background: linear-gradient(to right, #005f73, #0a9396);
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+header h3 {
+    font-size: 26px;
+}
+
+nav {
+    background-color: #e0fbfc;
+    padding: 12px;
+    text-align: center;
+}
+
+nav button {
+    margin: 6px;
+    padding: 14px 18px;
+    border: none;
+    background-color: #0077b6;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav button:hover {
+    background-color: #023e8a;
+}
+
+main {
+    padding: 35px;
+    background-color: white;
+    min-height: 500px;
+}
+
+.card {
+    background-color: #edf6f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    animation: fade 0.4s ease;
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+.card p, .card li {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.quiz-btn {
+    display: block;
+    margin: 12px 0;
+    padding: 14px;
+    width: 320px;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 20px;
+}
+
+@keyframes fade {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
